@@ -1,0 +1,140 @@
+*{padding:0;margin:0;}
+li { list-style:none;}
+img { border:none;}
+a {text-decoration:none;}
+a:hover{text-decoration:underline;}
+input{background: none;outline: none;border: none;}
+
+body{background: #fff;}
+
+.top_menu
+{
+    float: left;
+    padding-left: 24px;
+}
+.top_menu li
+{
+    float: left;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+.top_menu a
+{
+    color:black;
+    outline:none;
+    text-decoration: none;
+}
+
+.top_menu_r
+{
+    float: right;
+    padding-right: 24px;
+}
+.top_menu_r li
+{
+    float: right;
+    margin-top: 20px;
+    font-size: 12px;
+    margin-right: 30px;
+}
+.top_menu_r a 
+{
+    color:black;
+    outline:none;
+    text-decoration: none;
+}
+.login_bg
+{
+    background-color: royalblue;
+    color:#fff!important;
+}
+.login_sp
+{
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.login_sp:hover
+{
+    color:orange!important;
+}
+
+.sakura>img
+{
+    height:150px;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    padding-bottom: 240px;
+    border-radius: 10px 10px 20px 20px;
+}
+
+.action
+{
+    width: 200px;
+    height: 100px;
+}
+.action .search
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    border: 2px solid #c4c7ce;
+    border-radius: 10px 0 0 10px;
+
+    padding:0 66px 6px 10px;
+}
+.action .btn
+{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+    border: 2px solid rgb(0, 110, 255);
+    background: rgb(0, 255, 255);
+    border-radius: 0 10px 10px 0;
+    margin-left: 100px;
+    padding:2px 12px 4px 12px;
+}
+
+.code
+{
+    display: block;
+    text-align: center;
+    margin-top: 350px;
+    position: relative;
+}
+.code .download
+{
+    font-weight: bold;
+}
+.code .adword
+{
+    padding-top: 5px;
+    color:gray;
+}
+
+.foot_menu a
+{
+    color:gray;
+}
+.foot_menu p
+{
+    display: inline-block;
+    padding:0 20px;
+    text-decoration:underline;
+}
+
+.bottom p
+{
+    display: inline-block;
+    color: gray;
+    font-size: 12px;
+    padding:50px 10px;
+}
